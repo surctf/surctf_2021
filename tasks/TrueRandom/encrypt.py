@@ -11,10 +11,10 @@ IMG_H = img.shape[0]
 enc_img = np.zeros(img.shape, dtype="uint8")
 
 for i in range(IMG_H):
-	shuffle_map = np.arange(IMG_W)
-	np.random.shuffle(shuffle_map)
-	
-	for j in range(IMG_W):
-		enc_img[i, j] = img[i, shuffle_map[j]]
+    shuffle_map = np.arange(IMG_W)
+    np.random.shuffle(shuffle_map)
+
+    for j in range(IMG_W):
+        enc_img[i, j] = img[i, shuffle_map[j]]
 
 cv2.imwrite("enc.png", enc_img)
