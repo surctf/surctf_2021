@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Игра{% endblock %}
+{% block head %} 
+  <link rel="stylesheet" href="/static/css/cm-chessboard.css">
+{% endblock %}
+
+{% block content %}
+
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+  {% for message in messages %}
+    <p class="err"> * {{ message }}
+  {% endfor %}
+{% endif %}
+{% endwith %}
+
+<h2> Доска </h2>
+<p> <strong>Флаг:</strong> 
+  {% if user.wins >= 300 %} surctf_depth3_is_like_depth4_but_one_lower
+  {% else %} (появится после 300 побед) {% endif %}
+</p>
+
+<div id="board"> </div>
+
+<div class="input-block">
+  <form method="POST" action="/move">
+      <p class="input-label"> Ход: </p>
+      <input name="move" type="text" placeholder="e2e4" />
+      <button> Сходить </button>
+  </form>
+</div>
+
+<div class="info">
+  <h4> Инфо: </h4>
+  <p> Ходы вводятся в формате <strong><a href="https://en.wikipedia.org/wiki/Universal_Chess_Interface">UCI</a></strong></p>
+  <p> Вы всегда играете за <strong>белых<strong> </p>
+</div>
+
+<script type="module">
+    import {Chessboard} from "/static/js/Chessboard.js"
+
+    new Chessboard(document.getElementById("board"),
+            {position: {{board_fen|tojson }} })
+</script>
+
+{% endblock %}
