@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}{% endblock %} - Шахаты</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+  <link href="/static/css/style.css" rel="stylesheet">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <nav>
+    <ul> 
+      {% if user %}
+      <li><a href="/logout"> Выйти </a></li>
+      <li id="score"><strong>Побед: {{ user["wins"] }}</strong></li>
+      {% else %}
+      <li><a href="/register"> Регистрация </a></li>
+      <li><a href="/login"> Вход </a></li>
+      {% endif %}
+    </ul>
+    <hr>
+  </nav>
+
+  <center>
+    {% block content %}{% endblock %}
+  </center>
+</body>
+</html>
