@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  web-jinja:
+    build: .
+    ports:
+      - "1337:1337"
+
+    read_only: true
+    tmpfs: /run
+    tmpfs: /tmp
