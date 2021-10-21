@@ -16,8 +16,8 @@ for i in flag:
 
 
 @app.route('/')
-@app.route(var_templates[0])
-@app.route(var_templates[1])
+@app.route(var_templates[0]) # Меня заставили под дулом пистолета(
+@app.route(var_templates[1]) # ПАМАГИТЕ
 @app.route(var_templates[2])
 @app.route(var_templates[3])
 @app.route(var_templates[4])
@@ -36,7 +36,7 @@ for i in flag:
 @app.route(var_templates[17])
 @app.route(var_templates[18])
 @app.route(var_templates[19])
-@app.route(var_templates[20])
+@app.route(var_templates[20]) # Чувствую, как последняя капля разума покидает меня
 def index():
     return render_template('index.html', symbols=symbols, s=request.url)
 
@@ -52,4 +52,4 @@ def not_found(e):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=8080)
+    app.run(host="0.0.0.0", port=8228)
