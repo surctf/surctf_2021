@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>YA LYUBLYU PAPKI</title>
+</head>
+<body>
+    <h1>YA LYUBLYU PAPKI</h1>
+    {% with symbols=symbols %}
+    {% for item in symbols %}
+        <h2><a style="text-decoration: none; color: blue" href="{{s}}{{ item }}">{{ item }}</a></h2>
+    {% endfor %}
+    {% endwith %}
+</body>
+</html>
