@@ -1,0 +1,1 @@
+>Флаг:`surctf_ANGEL_Theory_of_deadman_FOREVER`
