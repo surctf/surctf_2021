@@ -1,0 +1,1 @@
+>Флаг:`surctf_Slender_Man_Slender_Man_All_the_children_try_to_run_Slender_Man_Slender_Man_To_him_it_is_part_of_the_fun`
