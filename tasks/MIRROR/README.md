@@ -1,5 +1,5 @@
 ## Mirror
-by @W0lf, crypto, 50
+by @W0lf86, crypto, 50
 
 > Задачка для разогрева:
 > 
