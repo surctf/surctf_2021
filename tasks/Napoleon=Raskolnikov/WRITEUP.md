@@ -1,1 +1,0 @@
->Флаг: `surctf_napoleon_is_dead_and_dostoevsky_was_born`
