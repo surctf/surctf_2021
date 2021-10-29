@@ -7,6 +7,6 @@ by @pigadoor, crypto, NULL
 > 
 > Думаю ты с этим справишься)
 > 
-> [url (можно залить только после хоста)](url.txt)</br>[site (не захосчено)](http://localhost:5000/)
+> [url](url.txt)</br>[site](http://surctf.ru:1335/)
 
 [Write-up](WRITEUP.md)
