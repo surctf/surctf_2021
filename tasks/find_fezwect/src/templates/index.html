@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Чекер</title>
+    <form action="" method="post">
+        <p>Введите адрес: <input required="required" type=text name=address>
+        <p><input type=submit value=Проверить>
+    </form>
+    {% if out %}
+    <h1 style="color: red">{{ out }}</h1>
+    {% endif %}
+</head>
+<body>
+
+</body>
+</html>
