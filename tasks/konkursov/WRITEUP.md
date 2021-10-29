@@ -1,0 +1,1 @@
+flag: `surctf_c00ki35_ar3_funn13r_th4n_c0nt35t5`
