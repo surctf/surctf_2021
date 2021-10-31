@@ -1,1 +1,3 @@
-surctf_u_f1nd_text_1n_home_YYEAAAAAAAAA
+> Разархивируем виртуальную машину, запускаем в VirtualBox. Просматриваем все папки Никиты и находим файл flag.txt, внутри которого лежит флаг:
+> 
+>surctf_u_f1nd_text_1n_home_YYEAAAAAAAA
