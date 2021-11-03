@@ -1,0 +1,2 @@
+Видим ==== значит это base32 переводим и у нас получаестя еще одна строчка но уже с == значит перед нами base64 переводим и у нас получается красивый флаг
+>Флаг:`surctf_Slender_Man_Slender_Man_All_the_children_try_to_run_Slender_Man_Slender_Man`
