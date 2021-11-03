@@ -1,1 +1,0 @@
->Флаг:`surctf_it_is_easy_flag_surgu_rulit`
