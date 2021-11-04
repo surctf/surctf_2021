@@ -7,6 +7,6 @@
 <img src="decompiling.png" width="720px" />
 
 Скачиваем сам GameMaker 8 и открываем через него полученные **.gmk** файл. Залазим в папку **Sprites**. Заглядываем в sprite4 и находим неиспользованный спрайт в котором записан наш флаг.  
-<img src="sprite4.png" width="720px" />
+<img src="sprite4.png"/>
 
 > Флаг: surctf_that_was_a_li77le_harder
