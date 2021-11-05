@@ -78,12 +78,11 @@ for i in flag:
 @app.route(var_templates[59])
 @app.route(var_templates[60])
 @app.route(var_templates[61])
-@app.route(var_templates[62])
 def index():
     return render_template('index.html', symbols=symbols, s=request.url)
 
 
-@app.route(var_templates[21])
+@app.route(var_templates[62])
 def flag_page():
     return "<h1>UH TY, ETO MOYA SECRET PAPKA</h1>"
 
