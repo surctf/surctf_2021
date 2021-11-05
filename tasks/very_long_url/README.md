@@ -1,5 +1,5 @@
 ## very_long_url
-by @pigadoor, crypto, NULL
+by @pigadoor, crypto, 150
 
 > Все почему-то укорачивают свой урлы(url), но никто никогда их не удлиняет.
 > 
