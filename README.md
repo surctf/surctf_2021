@@ -14,7 +14,7 @@
 [sweet_corn](tasks/sweet_corn/) (crypto 300)  
 [truerandom](tasks/TrueRandom/) (crypto 200)  
 [ssssipher](tasks/ssssipher/) (crypto 150)  
-[cyberplanet](tasks/cyberplanet/) (crypto 75)  
+[cyberplanet](tasks/Cyberplanet/) (crypto 75)  
 [flag_lover](tasks/flag_lover/) (crypto 300)  
 [very_long_url](tasks/very_long_url/) (crypto 150)  
 
