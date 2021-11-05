@@ -1,5 +1,5 @@
 ## vmem
-by @pigadoor, forensic, NULL
+by @pigadoor, forensic, 200
 
 > Коля записал свой флаг в `flag.txt`, а потом случайно удалил этот файл. Помогите Коле найти его флаг. 
 > 
