@@ -12,16 +12,16 @@
 
    1. Для начала узнаем профиль: 
 
-   > volatility -f memKolya.vmem imageinfo
-   ![фото](imageinfo.png)
+      - > volatility -f memKolya.vmem imageinfo
+        ![фото](imageinfo.png)
 
    2. Затем попробуем несколько разных команд, читая плагины `volatility`. В какой-то момент мы поподаем на команду `cmdscan` и `consoles` (выводят историю команд из CMD и PowerShell):
 
-   > volatility -f memKolya.vmem --profile=Win7SP1x86_23418 cmdscan
-   ![фото](cmdscan.png)
+      - > volatility -f memKolya.vmem --profile=Win7SP1x86_23418 cmdscan
+        ![фото](cmdscan.png)
 
-   > volatility -f memKolya.vmem --profile=Win7SP1x86_23418 consoles
-   ![фото](consoles.png)
+      - > volatility -f memKolya.vmem --profile=Win7SP1x86_23418 consoles
+        ![фото](consoles.png)
 
    3. Находим флаг из нескольких частей - радуемся, ликуем, улыбаемся, хлопаем себе, мы молодцы!!!
 
