@@ -1,5 +1,5 @@
 ## flag_lover
-by @pigadoor, crypto, NULL
+by @pigadoor, crypto, 300
 
 > Я очень люблю флаги и сделал шифр из флагов. 
 > 
