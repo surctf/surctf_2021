@@ -27,7 +27,7 @@
 
 ### `#joy`
 [sueta_1](tasks/sueta_1/) (joy 100)  
-[ВЗЛАМЫВАЕМ ШКОЛУ](tasks/vzlamivaem_shkolu/) (joy 100)  
+[ВЗЛАМЫВАЕМ ШКОЛУ](tasks/hacking_the_school/) (joy 100)  
 
 ### `#misc`
 [ORTOROT](tasks/ORTOROT/) (misc 100)  
